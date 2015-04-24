@@ -1,6 +1,6 @@
 #!/bin/bash
 
-I=`date +%M`
+I=$((10#`date +%M`))
 m=75
 a=$((123 * `date +%d`))
 
@@ -14,4 +14,3 @@ L=${L}${U}
 done
 
 echo $L
-
